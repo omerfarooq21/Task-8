@@ -9,12 +9,12 @@
     npm install axios
     npm install react-router-dom
 ```
-## open two Terminals :
+## open two Terminals by pressing  ⌘ (Command)+T or ctrl+t in the Terminal :
 - In first terminal run :
     ```bash
         npx json-server -p 3000 -w data/db.json
     ```
 - In second terminal run :
-```bash
+    ```bash
     npm start
-```
+    ```
