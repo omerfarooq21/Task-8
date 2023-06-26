@@ -1,0 +1,22 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Eamcet College List",
+      "githublink": "https://github.com/Mohammed-Khubaib/Python-WebApps/tree/main/EamcetWebApp",
+      "body": "The Eamcet College List web app is designed to assist students who have appeared in the Eamcet Exam in finding suitable engineering colleges based on their rank, caste, and interested engineering domain. The app utilizes data from previous year's Eamcet examination to provide a list of possible colleges where students could secure admission. By inputting their rank, caste, and preferred engineering domain, students can obtain a comprehensive list of colleges that match their criteria. This app helps students make informed decisions about college choices and streamlines the college selection process."
+    },
+    {
+      "id": 2,
+      "title": "Calculus Solver",
+      "githublink": "https://github.com/Mohammed-Khubaib/Python-WebApps/tree/main/calculus",
+      "body": "The Calculus Solver web app is built using the Python library called SymPy and the web framework Streamlit. It serves as a tool for solving calculus problems and visualizing the results. Students or users can input calculus equations, functions, or expressions into the web app. The app then utilizes SymPy's capabilities to evaluate and solve these equations. Additionally, the app can generate graphs to provide visual representations of the calculus functions and their solutions. This web app simplifies the process of solving calculus problems and aids students in understanding the concepts visually."
+    },
+    {
+      "id": 3,
+      "title": "QR code generator",
+      "githublink": "https://github.com/Mohammed-Khubaib/Python-WebApps/tree/main/QR_Gernerator",
+      "body": "The QR Code Generator web app allows users to generate QR codes for URLs. Upon accessing the app, users are prompted to input a valid HTTPS link. The app then utilizes QR code generation algorithms and libraries to create a unique QR code corresponding to the provided URL. Users can download or save the generated QR code for their use. This app provides a convenient and efficient way to create QR codes, which can be scanned by mobile devices to quickly access the associated URL. It can be used for various purposes such as sharing links, marketing campaigns, or adding interactivity to printed materials"
+    }
+  ]
+}

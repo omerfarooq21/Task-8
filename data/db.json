@@ -1,0 +1,16 @@
+{
+  "posts": [
+    {
+      "id": 2,
+      "title": "Calculus Solver",
+      "githublink": "https://github.com/Mohammed-Khubaib/Python-WebApps/tree/main/calculus",
+      "body": "The Calculus Solver web app is built using the Python library called SymPy and the web framework Streamlit. It serves as a tool for solving calculus problems and visualizing the results. Students or users can input calculus equations, functions, or expressions into the web app. The app then utilizes SymPy's capabilities to evaluate and solve these equations. Additionally, the app can generate graphs to provide visual representations of the calculus functions and their solutions. This web app simplifies the process of solving calculus problems and aids students in understanding the concepts visually."
+    },
+    {
+      "id": 3,
+      "title": "AHP",
+      "githublink": "https://github.com/Mohammed-Khubaib/AHP",
+      "body": "The AHP"
+    }
+  ]
+}

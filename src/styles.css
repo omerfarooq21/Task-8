@@ -1,0 +1,297 @@
+/* styles.css */
+
+/* Color Theme */
+:root {
+    --primary-color: #007bff;      /* Primary color (blue) */
+    --secondary-color: #6c757d;    /* Secondary color (gray) */
+    --background-color: #f8f9fa;   /* Background color (light gray) */
+    --text-color: #333;            /* Text color (dark gray) */
+    --link-color: var(--primary-color);  /* Link color (same as primary color) */
+  }
+  
+/* Header */
+.Header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center; /* Center align the header text */
+  }
+
+  /* Feed */
+  /* .Feed { */
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* justify-content: flex-start; */
+    /* justify-content: space-between; */
+  /* }  */
+  .Feed {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px; /* Adjust the value based on the desired gap between items */
+  }
+  
+  /* Nav */
+  .Nav {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+  }
+  
+  /* Search Form */
+  .searchForm {
+      margin: 20px 0;
+      text-align: center;
+    }
+    
+    /* Search Form Label */
+    .searchForm label {
+        display: block;
+        margin-bottom: 10px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    
+    /* Search Form Input */
+    .searchForm input {
+        width: 300px;
+        height: 40px;
+        padding: 5px 10px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    
+    /* Search Form Input Placeholder */
+    .searchForm input::placeholder {
+        color: #999;
+    }
+    
+    /* Search Form Input Focus */
+    .searchForm input:focus {
+        outline: none;
+        border-color: #555;
+    }
+    
+    /* Search Form end */
+    /* Post */
+    .post {
+        margin: 20px;
+        padding: 20px;
+        border: 1px solid var(--secondary-color);
+        background-color: white;
+        /* width: calc(33.33% - 20px);
+        margin-bottom: 20px; */
+      }
+      
+      /* Post Github */
+    .postGithub {
+        display: block;
+        margin-top: 10px;
+        text-decoration: none;
+        color: #3498db; 
+        font-weight: bold;
+    }
+      
+      /* Post Body */
+      .postBody {
+        margin-top: 10px;
+        color: var(--text-color);
+      }
+      
+      /* Links */
+      .Links {
+        color: var(--link-color);
+        text-decoration: none;
+        font-weight: bold;
+      }
+      
+      /* Links Hover */
+      .Links:hover {
+        text-decoration: underline;
+      }
+  /* Home */
+  .Home {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+  }
+    /* Home end */
+  /* Feed */
+/* .Feed {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  } */
+  /* About */
+  /* About */
+.About {
+  margin: 20px;
+  background-color: var(--background-color);
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.About h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: var(--primary-color);
+}
+
+.About p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--text-color);
+}
+
+.About ul {
+  margin-top: 20px;
+  padding-left: 20px;
+  color: var(--text-color);
+}
+
+.About ul li {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+  
+  /* Missing */
+  .Missing {
+    margin: 20px;
+  }
+  
+  
+  /* New Post */
+  .NewPost {
+    margin: 20px;
+  }
+  
+  /* Footer */
+  .Footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Nav List */
+  .Nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Center align the list items */
+  }
+  
+  /* Nav List Items */
+  .Nav ul li {
+    margin: 0 10px;
+  }
+  
+  /* Nav Links */
+  .Nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Nav Links Hover */
+  .Nav ul li a:hover {
+    text-decoration: underline;
+  }
+  /* Delete button */
+.Delete {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+.Edit {
+    background-color: #29b527;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .Delete:hover {
+    background-color: #c0392b;
+  }
+  .Edit:hover {
+    background-color: #20830e;
+  }
+  /* newAppForm */
+    .newAppForm {
+        margin-top: 20px;
+    }
+
+    .Newpost {
+        margin: 20px;
+      }
+      
+      .Newpost h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+      
+      .newAppForm {
+        display: flex;
+        flex-direction: column;
+      }
+      
+      .newAppForm label {
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+      
+      .newAppForm input,
+      .newAppForm textarea {
+        padding: 10px;
+        margin-bottom: 10px;
+      }
+      .Newpost textarea {
+        height: 100px; /* Increase the desired height */
+        resize: vertical; /* Allow vertical resizing */
+      }
+      
+      .newAppForm input[type="text"],
+      .newAppForm textarea {
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+      
+      .newAppForm button[type="submit"] {
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+      .newAppForm button[type="submit"]:hover {
+        background-color: #0056b3;
+      }
+      
+      body {
+        position: relative;
+        min-height: 100vh;
+      }
+      
+      .App {
+        padding-bottom: 50px; /* Adjust the value to leave enough space for the footer */
+      }
+      
