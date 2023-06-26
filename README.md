@@ -3,10 +3,18 @@
 - ⚠️ few configuration needs to be done before hand.
 
 ```bash
+    cd ~/Desktop
     git clone https://github.com/Mohammed-Khubaib/React-web-App.git
     cd React-web-App/
     npm install axios
     npm install react-router-dom
-    npx json-server -p 3000 -w data/db.json
+```
+## open two Terminals :
+- In first terminal run :
+    ```bash
+        npx json-server -p 3000 -w data/db.json
+    ```
+- In second terminal run :
+```bash
     npm start
 ```
